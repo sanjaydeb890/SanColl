@@ -3,6 +3,8 @@
 void main()
 {
 char a;
+  printf("Input");
+  scanf("%c",&a);
 if((a>='a'&& a<='z')||(a>='A'&& a<='Z'))
 {
 printf("Alphabet");
