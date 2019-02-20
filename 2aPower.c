@@ -3,13 +3,14 @@
 void main()
 {
 int num,expo;
+long double res=1;
 printf("Enter Number and the power");
 scanf("%d%d:,&num,&expo);
 while(expo!=0)
 {
-num*=num;
+res*=num;
 expo--;
 }
-printf("Output= %d",num);
+printf("Output= %Lf",res);
 getch();
 }
