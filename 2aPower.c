@@ -9,7 +9,7 @@ scanf("%d%d:,&num,&expo);
 while(expo!=0)
 {
 res*=num;
-expo--;
+--expo;
 }
 printf("Output= %Lf",res);
 getch();
