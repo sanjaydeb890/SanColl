@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int start,end,flag;
+int start,end,flag,i;
 printf("Enter interval"):
 scanf("%d%d",&start,&end);
 while(start<end)
