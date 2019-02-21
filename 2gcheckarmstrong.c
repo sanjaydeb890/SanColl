@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int num,org,rem,result=0;
+int num,org=0,rem,result=0;
 printf("Enter the number");
 scanf("%d",&num);
 org=num;
@@ -18,7 +18,7 @@ printf("Yes");
 }
 else
 {
-printf("No');
+printf("No");
 }
 getch();
 }
