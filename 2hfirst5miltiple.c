@@ -7,7 +7,7 @@ printf("Enter number");
 scanf("%d",&num);
 for(i=1;i>=5;i++)
 {
-res=5*i;
+res=num*i;
 printf("%d",res);
 res=1;
 }
