@@ -18,7 +18,7 @@ if(arr[i]>arr[j])
 {
 temp=arr[i];
 arr[i]=arr[j];
-arr[j]=arri];
+arr[j]=temp;
 }
 }
 }
