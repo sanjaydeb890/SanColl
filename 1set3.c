@@ -11,7 +11,7 @@ for(i=0;i<=size;i++)
 scanf("%d",arr[i]);
 }
 large=arr[0];
-for(i=0;i<=size;i++)
+for(i=1;i<=size;i++)
 {
 if(large<arr[i])
 {
