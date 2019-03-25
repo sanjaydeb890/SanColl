@@ -24,5 +24,5 @@ printf("%d",median);
 median=a[given/2];
 printf("%d",median);
 }     
-return 0;
+getch();
 }
