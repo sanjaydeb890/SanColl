@@ -2,9 +2,9 @@
 #include<conio.h>
 void main()
 {
-    int a=0,b=0,c=0;
+    float a=0,b=0,c=0;
     printf("Enter 2 number");
-    scanf("%d%d",&a,&b);
+    scanf("%f%f",&a,&b);
     c=a;
     a=b;
     b=c;
