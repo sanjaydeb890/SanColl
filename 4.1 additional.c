@@ -15,8 +15,6 @@ if(s[i]==' ')
 count++;
 sum++;
 }
-printf("\n%d",count);
-printf("\n%d",len);
 ch=sum-count;
 printf("\n%d",ch);
 return 0;
